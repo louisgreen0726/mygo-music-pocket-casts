@@ -1,0 +1,33 @@
+{
+  "id": "pocket-casts",
+  "name": "Pocket Casts",
+  "version": "0.1.2",
+  "minAppVersion": "0.1.21",
+  "main": "index.js",
+  "playback": "stream",
+  "permissions": {
+    "network": [
+      "api.pocketcasts.com",
+      "podcast-api.pocketcasts.com",
+      "lists.pocketcasts.com",
+      "pocketcasts.com",
+      "play.pocketcasts.com",
+      "static.pocketcasts.com",
+      "podcasts.pocketcasts.com",
+      "www.gravatar.com"
+    ],
+    "process": [
+      "ffmpeg",
+      "/opt/homebrew/bin/ffmpeg",
+      "/usr/local/bin/ffmpeg"
+    ]
+  },
+  "navigation": [
+    { "title": "Discover", "builtin": "home", "icon": "home" },
+    { "title": "Subscriptions", "builtin": "shows", "icon": "podcast" },
+    { "title": "New Releases", "page": "new-releases", "icon": "calendar" },
+    { "title": "In Progress", "page": "in-progress", "icon": "radio" },
+    { "title": "Starred", "builtin": "liked", "icon": "heart" },
+    { "title": "History", "page": "history", "icon": "chart" }
+  ]
+}

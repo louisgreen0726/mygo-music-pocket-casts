@@ -1,0 +1,16 @@
+{
+  "name": "mygo-pocket-casts",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check index.js",
+    "test": "node --experimental-vm-modules --test tests/smoke.test.mjs",
+    "test:live": "node --experimental-vm-modules tests/live.mjs",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1",
+    "install:dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-dev.ps1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
