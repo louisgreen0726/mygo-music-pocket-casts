@@ -2,6 +2,8 @@
 
 在 [MyGo Music](https://github.com/egoist/mygo-music) 里听 Pocket Casts 播客：订阅、搜索、节目简介、收藏，以及 HE-AAC 单集的自动转码播放。
 
+![Pocket Casts 插件界面：正在播放的节目与 show notes、订阅列表、热门播客](docs/hero.png)
+
 Unofficial Pocket Casts source plugin for MyGo Music — subscriptions, search, show notes and HE-AAC playback.
 
 > 不是 Pocket Casts 官方插件，使用网页端当前的非官方接口。接口变化时可能需要更新。
